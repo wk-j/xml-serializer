@@ -14,7 +14,8 @@ namespace Library {
 
     [XmlRoot(Namespace = "http://schemas.xmlsoap.org/soap/envelope/")]
     public class Body {
-        [XmlElement("OrganizationInfo", Namespace = "")]
+        [XmlArray("OrganizationList", Namespace = "")]
+        [XmlArrayItem("OrganizationInfo")]
         public List<Organization> OrganizationList { set; get; }
     }
 

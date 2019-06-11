@@ -5,17 +5,19 @@
     <SOAP-ENV:To>http://google.com</SOAP-ENV:To>
   </SOAP-ENV:Header>
   <SOAP-ENV:Body>
-    <OrganizationInfo>
-      <Th-Name>Th</Th-Name>
-      <En-Name>En</En-Name>
-      <Ecms-Url>http://google.com</Ecms-Url>
-      <OrganizationID>001</OrganizationID>
-    </OrganizationInfo>
-    <OrganizationInfo>
-      <Th-Name>Th</Th-Name>
-      <En-Name>En</En-Name>
-      <Ecms-Url>http://google.com</Ecms-Url>
-      <OrganizationID>001</OrganizationID>
-    </OrganizationInfo>
+    <OrganizationList>
+      <OrganizationInfo>
+        <Th-Name>Th</Th-Name>
+        <En-Name>En</En-Name>
+        <Ecms-Url>http://google.com</Ecms-Url>
+        <OrganizationID>001</OrganizationID>
+      </OrganizationInfo>
+      <OrganizationInfo>
+        <Th-Name>Th</Th-Name>
+        <En-Name>En</En-Name>
+        <Ecms-Url>http://google.com</Ecms-Url>
+        <OrganizationID>001</OrganizationID>
+      </OrganizationInfo>
+    </OrganizationList>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
