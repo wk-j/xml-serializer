@@ -10,7 +10,7 @@ namespace Deserialize {
     class Program {
         static void Main(string[] args) {
             // var xml = File.ReadAllText("resource/Generate.xml");
-            var xml = File.ReadAllText("resource/Long.xml");
+            var xml = File.ReadAllText("resource/Long2.xml");
             var element = XElement.Parse(xml);
             var reader = element.CreateReader();
             var serializer = new XmlSerializer(typeof(Envelope));
