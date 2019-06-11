@@ -1,0 +1,19 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV=""http://schemas.xmlsoap.org/soap/envelope/"">
+    <SOAP-ENV:Header />
+    <SOAP-ENV:Body>
+        <OrganizationList>
+            <OrganizationInfo>
+                <En-Name>Test 2</En-Name>
+                <Th-Name>Test 2</Th-Name>
+                <ECMS-URL>http://tester2.ecms.ega.or.th/ecms-ws01/service2</ECMS-URL>
+                <OrganizationID>00012</OrganizationID>
+            </OrganizationInfo>
+            <OrganizationInfo>
+                <En-Name>Test 3</En-Name>
+                <Th-Name>Test 3</Th-Name>
+                <ECMS-URL>http://tester3.ecms.ega.or.th/ecms-ws01/service2</ECMS-URL>
+                <OrganizationID>00013</OrganizationID>
+            </OrganizationInfo>
+        </OrganizationList>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
